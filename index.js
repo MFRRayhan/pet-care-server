@@ -22,7 +22,7 @@ const client = new MongoClient(uri, {
 // middle wars
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:4173"],
+    origin: ["http://localhost:5173", "https://paw-home-2d017.web.app"],
     credentials: true,
   }),
 );
